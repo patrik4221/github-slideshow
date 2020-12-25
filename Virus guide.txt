@@ -1,0 +1,30 @@
+Code- 
+Először írja be ezt a kódot-
+
+X=MsgBox("Message Description",0+16,"Title") 
+
+1.  Bármelyik számot beírhatjuk 1,2-ig vagy 4-ig 0 helyett (a '+' szimbólum elé)
+Az alábbiakban a számok jelentése található:
+
+0 = OK Button, 
+1 = OK / Cancel Button, 
+2 = Abort / Retry / Ignore Button, 
+3 = Yes / No / Cancel Button, 
+4 = Yes / No Button, 
+5 = Retry / Cancel Button
+
+2. 16 helyett 32, 48 vagy 64 írhat.
+Az alábbiakban minden szám jelentése:
+
+16 = Critical Icon, 
+32 = Help Icon, 
+48 = Warning Icon, 
+64 = Information Icon,
+
+ha azt akarjuk hogy a virusból ne lehessen simán ki lépni akkor:
+
+do
+X=MsgBox("Message Description",0+16,"Title") 
+loop
+
+a be akarjuk zárni ez után a "virust" akkor meg kell nyitnunk a fájlkezelt és be zárni a programot.
